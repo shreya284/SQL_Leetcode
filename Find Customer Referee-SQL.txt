@@ -1,0 +1,2 @@
+SELECT name from Customer //select name from Customer table
+WHERE ifnull(referee_id,1) <> 2; //the '<>' is NOT operator and ifnull checks whether the condition is satisfied or not
